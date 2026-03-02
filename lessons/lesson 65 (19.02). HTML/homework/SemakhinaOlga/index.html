@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Моя страница-визитка</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Подключаем современный шрифт -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-content">
+      <img src="avatar.jpg" alt="Аватар Ивана Петрова" class="avatar" width="80" height="80" />
+      <div>
+        <h1 class="header-title">Иван Петров</h1>
+        <p class="header-subtitle">Веб-разработчик из Санкт-Петербурга</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Секция 1: Обо мне -->
+    <section class="section about-section">
+      <h2>Обо мне</h2>
+      <p>Увлекаюсь веб-разработкой больше трёх лет. Создаю современные и адаптивные сайты. В работе ценю чистый код и внимание к деталям. Постоянно учусь новому и слежу за трендами в мире фронтенда.</p>
+      <p>Мой подход — сочетание эстетики и функциональности. Я верю, что хороший сайт должен быть не только красивым, но и удобным для каждого пользователя.</p>
+    </section>
+
+    <!-- Секция 2: Навыки -->
+    <section class="section skills-section">
+      <h2>Навыки</h2>
+      <h3>Мой технологический стек</h3>
+      <ul class="skills-list">
+        <li>HTML5 & Семантика</li>
+        <li>CSS3 / Flexbox / Grid</li>
+        <li>Адаптивная верстка</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Git и GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Секция 3: Проекты -->
+    <section class="section projects-section">
+      <h2>Проекты</h2>
+      <div class="projects-grid">
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Интернет-магазин" alt="Скриншот проекта Интернет-магазин" class="card-image">
+          <div class="card-content">
+            <h3>Интернет-магазин</h3>
+            <p>Небольшой интернет-магазин на чистом HTML и CSS с корзиной на JavaScript.</p>
+            <a href="https://example.com/project1" class="card-link" target="_blank" rel="noopener">Подробнее <span class="link-arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200/4ECDC4/FFFFFF?text=Портфолио" alt="Скриншот проекта Портфолио" class="card-image">
+          <div class="card-content">
+            <h3>Портфолио</h3>
+            <p>Сайт-портфолио с фильтрацией работ и адаптивной сеткой.</p>
+            <a href="https://example.com/project2" class="card-link" target="_blank" rel="noopener">Подробнее <span class="link-arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200/FFE66D/2C3A47?text=Блог" alt="Скриншот проекта Блог" class="card-image">
+          <div class="card-content">
+            <h3>Блог</h3>
+            <p>Минималистичный шаблон блога с удобной типографикой.</p>
+            <a href="https://example.com/project3" class="card-link" target="_blank" rel="noopener">Подробнее <span class="link-arrow">→</span></a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал с контактами -->
+  <footer class="footer">
+    <div class="container">
+      <h2>Контакты</h2>
+      <div class="contacts">
+        <a href="mailto:ivan@example.com" class="contact-link">📧 ivan@example.com</a>
+        <a href="https://t.me/username" class="contact-link" target="_blank" rel="noopener">📱 Telegram</a>
+        <a href="https://github.com/username" class="contact-link" target="_blank" rel="noopener">🐙 GitHub</a>
+      </div>
+      <p class="footer-copy">© 2025 Иван Петров</p>
+    </div>
+  </footer>
+
+</body>
+</html>
